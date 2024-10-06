@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google search</title>
+</head>
+<body>
+    <main>
+        <br>
+        <!--  A form is a section of a web page where users can enter data (like text fields, checkboxes, radio buttons, etc.) and submit it.
+        The action attribute specifies where the form data should be sent when the user submits the form. -->
+        <form action="https://www.google.com/search" method="get">
+            <!-- The primary purpose of <fieldset> is to group related form controls like inputs, checkboxes, radio buttons, etc. 
+            This makes it easier for users and screen readers to understand that the elements inside the fieldset are part of a specific section. -->
+            <fieldset>
+                <!-- The <legend> tag is placed inside a <fieldset>, which is used to group related elements (usually form elements).
+                 The text inside the <legend> tag acts as the title or description for the group of elements.-->
+                <legend>Cauta pe GOOGLE!</legend>
+                <input type="text" size="50" name="q">
+                <button type="submit">Search</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
